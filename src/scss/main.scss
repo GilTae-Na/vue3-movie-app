@@ -1,3 +1,13 @@
-$color--black: #000;
-$color--white: #fff;
-$color--primary: orange;
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$primary: #FDC000;
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+@import "../../node_modules/bootstrap/scss/bootstrap"
