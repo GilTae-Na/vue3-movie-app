@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import Logo from './logo.vue';
+import Logo from './logo';
 
 
 export default{
